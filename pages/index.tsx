@@ -53,12 +53,18 @@ function HomePage() {
             </div>
           </div>
           <div className="flex flex-col mx-2">
-            <div className="bg-gray-500 p-4 text-white mb-4 flex-grow flex items-center">
+            <div className="bg-gray-500 p-4 text-white mb-4 flex-grow">
               <p>
                 How to recruit the best people:
-                People fear joining startups because of <strong>financial risk</strong>. Show how pay
-                might be 1% lower next year, but <strong>more in the long-term</strong>
+              </p>
+              <p>
+                People fear joining startups because of <strong>financial risk</strong>.
+              </p>
+              <p>
+                Show how pay might be 1% lower next year, but <strong>more in the long-term</strong>
                 "If if doesn't work out, I will find you a job at a great company."
+              </p>
+              <p>
                 Reframe the risk, remove the fear.
               </p>
             </div>
@@ -75,7 +81,10 @@ function HomePage() {
             </div>
             <div className="bg-green-800 p-4 text-white ml-2">
               <p>
-                When you say: <strong>"We don't need your money"</strong> guess what investors want to do?
+                When you say: <strong>"We don't need your money"</strong>
+              </p>
+              <p>
+                Guess what investors want to do?
               </p>
               <p>hint: <strong>Give you a lot of money</strong></p>
             </div>
@@ -99,7 +108,7 @@ function HomePage() {
           </div>
           <div className="bg-blue-800 p-4 text-white ml-2">
             <p>
-              The <strong>best mentor</strong> is actually a peer who is building *their own startup*.
+              The <strong>best mentor</strong> is actually a peer who is building <strong>their own startup</strong>.
               Learn from what they do well, steal that and discard the rest.
             </p>
           </div>
