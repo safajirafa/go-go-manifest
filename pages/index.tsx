@@ -8,9 +8,9 @@ function HomePage() {
       </Head>
       <div className="container bg-white m-8 p-8 mx-auto">
         <div className="flex mb-4 flex-items-stretch">
-          <div className="bg-red-500 p-4 text-white mr-2 flex-grow">
+          <div className="bg-red-500 p-4 text-white mr-2 flex-grow flex items-center justify-center">
             <p>
-              CTFU: "Catch the F*ck up" Startups are about speed. If you don't have urgency, you
+              CTFU - "Catch the F*ck up" Startups are about speed. If you don't have urgency, you
               lose.
             </p>
           </div>
@@ -53,7 +53,7 @@ function HomePage() {
             </div>
           </div>
           <div className="flex flex-col mx-2">
-            <div className="bg-gray-500 p-4 text-white mb-4 flex-grow">
+            <div className="bg-gray-500 p-4 text-white mb-4 flex-grow flex items-center">
               <p>
                 How to recruit the best people:
                 People fear joining startups because of <strong>financial risk</strong>. Show how pay
@@ -70,7 +70,7 @@ function HomePage() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="bg-red-700 p-4 text-white mb-4">
+            <div className="bg-red-700 p-4 text-white mb-4 ml-2">
               <p>Be <strong>short and to the point</strong> with important people.</p>
             </div>
             <div className="bg-green-800 p-4 text-white ml-2">
@@ -104,7 +104,9 @@ function HomePage() {
             </p>
           </div>
         </div>
-        <i>Source: Twitter @chrishlad</i>
+        <div className="flex justify-end mt-2">
+          <i>Source: Twitter @chrishlad</i>
+        </div>
       </div>
     </>
   )
