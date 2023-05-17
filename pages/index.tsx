@@ -114,7 +114,7 @@ function HomePage() {
           </div>
         </div>
         <div className="flex justify-end mt-2">
-          <i>Source: Twitter @chrishlad</i>
+          <i>Source: Twitter <a href="https://twitter.com/chrishlad" target="_blank">@chrishlad</a></i>
         </div>
       </div>
     </>
